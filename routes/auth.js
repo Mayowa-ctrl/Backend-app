@@ -1,5 +1,6 @@
 const express = require('express');
-const { register, login, updateDetails, deleteUser, getUser, getUsers, updatePassword, forgotPassword } = require('../controller/auth');
+const { register, login, updateDetails, deleteUser, getUser, getUsers, updatePassword, forgotPassword, resetPassword } = require('../controller/auth');
+const { reset } = require('nodemon');
 
 const router = express.Router();
 
